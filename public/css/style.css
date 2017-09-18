@@ -1,0 +1,107 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+h1 {
+    text-align: center;
+}
+.form-group {
+    display: inline-block;
+}
+form {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+#result {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.result-box div {
+    display: inline-block;
+}
+.result-box {
+    margin-top: 20px;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+.nav a {
+    text-decoration: none;
+}
+.currency-row p {
+    display: inline-block;
+    margin: 5px 10px;
+    width: 120px;
+}
+.currency-row {
+    display: block;
+    margin: 0 auto;
+    width: 580px;
+}
+.alert.alert-info {
+    color: blue;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+#currency_add_form label, #currency_add_form input {
+    display: inline-block;
+    width: 45%;
+}
+#currency_add_form input:last-child {
+    display: block;
+    margin: 10px auto 0;
+}

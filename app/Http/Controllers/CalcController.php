@@ -109,10 +109,10 @@ class CalcController extends Controller
 
         // validation of fields
         $rules = array(
-            'base'       => 'required',
-            'target'      => 'required',
-            'base_name'       => 'required',
-            'target_name'      => 'required',
+            'base'       => 'required|min:1|max: 8|regex:[A-Za-z1-9 ]',
+            'target'      => 'required|min:1|max: 8|regex:[A-Za-z1-9 ]',
+            'base_name'       => 'required|min:1|max: 8|regex:[A-Za-z1-9 ]',
+            'target_name'      => 'required|min:1|max: 8|regex:[A-Za-z1-9 ]',
             'currency' => 'required|numeric'
         );
         $validator = Validator::make(Input::all(), $rules);
